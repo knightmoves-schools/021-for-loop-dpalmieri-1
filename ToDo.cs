@@ -6,7 +6,7 @@ public class ToDo
     {
         for(int i = 0; i < todos.Length; i++)
         {
-            todos[i] = todos[i] + "done - ";
+            todos[i] = "done - " + todos[i];
             
         }
 
